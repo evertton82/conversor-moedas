@@ -10,7 +10,10 @@ export default function SobreScreen() {
       <Text style={{ fontSize: 16, marginBottom: 12 }}>
         Ele lista as moedas disponíveis, permite marcar moedas favoritas e converter valores entre elas.
       </Text>
-      <Text style={{ fontSize: 16 }}>Dados obtidos da ExchangeRate-API.</Text>
+      <Text style={{ fontSize: 16, marginBottom: 12 }}>Dados obtidos da ExchangeRate-API.</Text>
+      <Text style={{ fontSize: 16, fontWeight: 'bold', marginBottom: 4 }}>Alunos responsáveis</Text>
+      <Text style={{ fontSize: 16 }}>Éverton Coelho</Text>
+      <Text style={{ fontSize: 16 }}>Andrew</Text>
     </View>
   );
 }
